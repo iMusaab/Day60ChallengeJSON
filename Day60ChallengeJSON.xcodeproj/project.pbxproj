@@ -13,6 +13,9 @@
 		D6B649F42616D58500F7821E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B649F32616D58500F7821E /* Preview Assets.xcassets */; };
 		D6B649F62616D58500F7821E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B649F52616D58500F7821E /* Persistence.swift */; };
 		D6B649F92616D58500F7821E /* Day60ChallengeJSON.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6B649F72616D58500F7821E /* Day60ChallengeJSON.xcdatamodeld */; };
+		D6B64A042616D72100F7821E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B64A032616D72100F7821E /* User.swift */; };
+		D6B64A0C2616F08500F7821E /* FetchingUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B64A0B2616F08500F7821E /* FetchingUsers.swift */; };
+		D6B64A0F2616F88500F7821E /* userDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B64A0E2616F88500F7821E /* userDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D6B649F52616D58500F7821E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D6B649F82616D58500F7821E /* Day60ChallengeJSON.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Day60ChallengeJSON.xcdatamodel; sourceTree = "<group>"; };
 		D6B649FA2616D58500F7821E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6B64A032616D72100F7821E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D6B64A0B2616F08500F7821E /* FetchingUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchingUsers.swift; sourceTree = "<group>"; };
+		D6B64A0E2616F88500F7821E /* userDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				D6B649EC2616D58100F7821E /* Day60ChallengeJSONApp.swift */,
 				D6B649EE2616D58100F7821E /* ContentView.swift */,
+				D6B64A0E2616F88500F7821E /* userDetails.swift */,
+				D6B64A032616D72100F7821E /* User.swift */,
+				D6B64A0B2616F08500F7821E /* FetchingUsers.swift */,
 				D6B649F02616D58500F7821E /* Assets.xcassets */,
 				D6B649F52616D58500F7821E /* Persistence.swift */,
 				D6B649FA2616D58500F7821E /* Info.plist */,
@@ -147,6 +156,9 @@
 				D6B649F92616D58500F7821E /* Day60ChallengeJSON.xcdatamodeld in Sources */,
 				D6B649F62616D58500F7821E /* Persistence.swift in Sources */,
 				D6B649EF2616D58100F7821E /* ContentView.swift in Sources */,
+				D6B64A042616D72100F7821E /* User.swift in Sources */,
+				D6B64A0F2616F88500F7821E /* userDetails.swift in Sources */,
+				D6B64A0C2616F08500F7821E /* FetchingUsers.swift in Sources */,
 				D6B649ED2616D58100F7821E /* Day60ChallengeJSONApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
